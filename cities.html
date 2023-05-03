@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Food Street</title>
+    <link rel="icon" href="./images/food_logo2.jpeg" type="image/icon type">
+  </head>
+
+<!-- bootstrap 5 cdn -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- font awesome cdn link  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+<!-- font awesome cdn -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<link rel="stylesheet" href="./styles/header.css">
+<link rel="stylesheet" href="./styles/slider.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/responsive-style.css">
+  <link rel="stylesheet" href="./styles/cities_restaurants_dishes.css">
+  <link rel="stylesheet" href="./styles/map.css">
+  <link rel="stylesheet" href="./styles/cart.css">
+  <body>
+    <header id="full_nav ">
+      <div class="header">
+        <div class="container">
+          <nav id = "navvvv" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <img src="./images/food_logo2.jpeg" alt="" srcset="" height="70px" width="70px">  <!-- logo-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"  style="color: red;">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <ion-icon class="navbar-toggler-icon" name="menu-outline"></ion-icon>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./cities.html">Cities</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#C1">Contacts</a>
+                  </li>
+                </ul>
+                <!-- <a class="navbar-brand me-4 mt-1" href="#"><ion-icon class="bag " name="bag-handle-outline"></ion-icon></a> -->
+                <div class="iconShopping">
+                  <p>0</p>
+                  <a class="navbar-brand me-4 mt-1" href="#"><ion-icon class="bag " name="bag-handle-outline"></ion-icon></a>
+                </div>
+                <div class="nav-item mt-3 mt-lg-0">
+                  <!-- <a class="main-btn ordernow" href="./login.html">Login</a> -->
+                  <form class="form-inline my-2 my-lg-0">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                          <a id="userlink" class="main-btn nav-link me-2" href=""></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a id="signoutlink" class="main-btn nav-link" href=""></a>
+                    </li>
+                    </ul>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+  <section class="rest-container">
+    <div class="swiper">
+
+      <div class="swiper-wrapper">
+
+         <div  class="swiper-slide">
+             <div class="des">
+              <img class="rest-banner" src="./images/slidder1.jpg" alt="">
+             </div>
+           
+         </div>
+         <div  class="swiper-slide">
+          <div class="des">
+              <img class="rest-banner" src="./images/slider2.jpg" alt="">
+             </div>
+         </div>
+
+         <div  class="swiper-slide">
+          <div class="des">
+              <img class="rest-banner" src="./images/slider3.jpg" alt="">   
+             </div>
+         </div>
+
+
+     </div>
+         
+     <div class="swiper-pagination"></div> 
+
+  </div>
+
+  </section>
+  
+    
+  <!-- banner section exit -->
+  <section class="dishes" id="dishes">
+
+    <h1 class="heading">Popular Cities</h1>
+
+    <div class="box-container">
+
+        <a href="./restaurats.html" class="box">
+            <img src="./images/city1.png" alt="" class="city">
+            <h3>Delhi</h3>
+            <span class="span1">The historical capital, Delhi is a foodies’ paradise. From street food to international cuisines, Delhi, or as we lovingly call ‘Dilli’, can blow your mind in every expanse.</span>
+        </a>
+
+        <a href="./restaurats.html" class="box">
+            <img src="./images/city2.png" alt="" class="city" >
+            <h3>Mumbai</h3>
+            <span class="span1">The culture of Mumbai is a boisterous blend of cuisines, languages, food, fine arts, cinema and festivals. </span>
+        </a>
+
+        <a href="./restaurats.html" class="box">
+            <img src="./images/city3.png" alt="" class="city">
+            <h3>Hyderbad</h3>
+            <span class="span1">Traditional Hyderabadi Dum Biryani is the most celebrated dish from Hyderabad and is served at restaurants in the entire country.</span>
+        </a>
+
+        <a href="./restaurats.html" class="box">
+            <img src="./images/city4.png" alt="" class="city">
+            <h3>Lucknow</h3>
+            <span class="span1">Lucknow is a land of mouth-watering dishes, where every street and lane smells of good food.</span>
+        </a>
+
+        <a href="./restaurats.html" class="box">
+            <img src="./images/city5.png" alt="" class="city">
+            <h3>Chennai</h3>
+            <span class="span1">The main taste of Chennai lies in South Indian food mainly consists of sambhar, idli, dosa, uttapam, rasam, dry curry, and many more.</span>
+        </a>
+
+        <a href="./restaurats.html" class="box">
+            <img src="./images/city6.png" alt="" class="city">
+            <h3>Goa</h3>
+            <span class="span1">Goan cuisine consists of regional foods popular in Goa, an Indian state located along India's west coast on the shore of the Arabian Sea.</span>
+        </a>
+
+        <a href="./restaurats.html" class="box">
+          <img src="./images/city7.png" alt="" class="city">
+          <h3>Varanasi</h3>
+          <span class="span1">People in Varanasi are still like the cultural and traditional food like Jalebi and Dahi, Samosa and dahi with green chatani, Kachaudi and a variety of delicious sweets.</span>
+      </a>
+
+      <a href="./restaurats.html" class="box">
+          <img src="./images/city8.png" alt="" class="city">
+          <h3>Agra</h3>
+          <span class="span1">The most popular food item of Agra, apart from the famous Mughlai dishes, is the Pethas made from pumpkin and glucose and is popular all over India.</span>
+      </a>
+
+      <a href="./restaurats.html" class="box">
+          <img src="./images/city9.png" alt="" class="city">
+          <h3>Jaipur</h3>
+          <span class="span1">The pink city Jaipur presents to you scrumptious cuisines that are known throughout India; dishes like Dal Bati Churma, Missi Roti, and sweets like Ghevar.</span>
+      </a>
+
+      <a href="./restaurats.html" class="box">
+        <img src="./images/city10.png" alt="" class="city">
+        <h3>Kolkata</h3>
+        <span class="span1">Kolkata is known for its diversified food culture, a wide range of cuisines and varied cooking techniques. Bengali cuisine is very popular for their aromatic taste and delicious flavors.</span>
+    </a>
+
+    <a href="./restaurats.html" class="box">
+        <img src="./images/city11.png" alt="" class="city">
+        <h3>Mirzapur</h3>
+        <span class="span1">Mirzapur shares a distinctive north Indian diet. The town having Mughal ancestral root specializes in Awadhi, Mughlai as well as typical cuisines of Uttar Pradesh.</span>
+    </a>
+
+    <a href="./restaurats.html" class="box">
+        <img src="./images/city12.png" alt="" class="city">
+        <h3>Mathura</h3>
+        <span class="span1">Mathura is famous for its “Peda”, one of the famous sweet of India. Other than this sweet, Mathura is also well-known for Gol-Gappe, Jalebi – Kachori, Chat, etc. </span>
+    </a>
+    </div>
+  </section>
+
+    <!-- map -->
+    <h3 style="color:black;font-weight:400;font-size: 25px;">Find Your City</h3>
+    <div id="map"></div>
+    <script src="./js/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrCJEpKUoPnrNB4ccAV0h7STu4QtUdLjQ&callback=initMap"></script>
+    <!-- map -->
+
+    <br><br><br><br><br><br><br>
+
+  <section class="bottom-slider">
+
+    <section class="rest-container">
+      <div class="swiper">
+  
+        <div class="swiper-wrapper">
+  
+           <div  class="swiper-slide">
+               <div class="des">
+                <img class="rest-banner" src="./images/slidder4.jpg" alt="">
+                
+               </div>
+             
+           </div>
+           <div  class="swiper-slide">
+            <div class="des">
+                <img class="rest-banner" src="./images/slidder5.jpg" alt="">
+               
+               </div>
+           </div>
+  
+           <div  class="swiper-slide">
+            <div class="des">
+                <img class="rest-banner" src="./images/slisser6.jpg" alt="">
+               
+               </div>
+           </div>
+  
+  
+       </div>
+           
+       <div class="swiper-pagination"></div> 
+  
+    </div>
+  
+    
+    </section>
+    
+  </section>
+
+   <!-- Footer section -->
+   <section id="C1" class="footer_wrapper mt-3 mt-md-0 bg-dark">
+    <div class="container px-5 px-lg-0">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Food Street</h5>
+                <p class="mb-4 ps-0 company_details">
+                  A warm welcome to the Food Street, your one-stop destination for exploring, discovering, experiencing, and ordering delicious food from the comfort of your home! 
+                    </p>
+                
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Customer Support</h5>
+                  <p style="font-size: 34px; font-weight: 500; line-height: 38px;" >
+                    24/07 hrs<br>Support
+                  </p>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Quick Links</h5>
+                <ul class="link-widget p-0">
+                  <li><a href="dishes.html">Product</a></li>
+                  <li><a href="restaurats.html">Explore your Restaurant</a></li>
+                  <li><a href="cities.html">Find your city</a></li>
+                  <li><a href="register.html">Get register now </a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>GET IN TOUCH</h5>
+                <div class="contact-info">
+                  <ul class="list-unstyled">
+                    <li><a href="#"><ion-icon name="home-outline"></ion-icon></i> National Highway 2, Bypass-281001 near Gla University</a></li>
+                    <li><a href="#"><ion-icon name="call-outline"></ion-icon></i>+91 6398231569</a></li>
+                    <li><a href="#"><ion-icon name="mail-outline"></ion-icon>foodstreet@gmail.com</a></li>
+                    <ul class="social-network d-flex align-items-center p-0">
+                      <li><a href="https://www.instagram.com/" style="color: white;border-color: pink;
+                        background: #f09433; 
+                        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+                        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+                        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );;"><ion-icon name="logo-instagram"></ion-icon></i></a></li>
+                      
+                      <li><a href="https://twitter.com/" style=" background-color:#55ACEE;
+                        color: white;border-color: #55ACEE;"><ion-icon name="logo-twitter"></ion-icon></i></a></li>
+                      
+                      <li><a href="https://www.linkedin.com/" style=" background-color: blue;border-color: blue;
+                        color: white;"><ion-icon name="logo-linkedin"></ion-icon></i></a></li>
+                      
+                      <li><a href="https://www.youtube.com/" style="color: white;background-color: red;border-color: red
+                      ;"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                  </ul>
+                  </ul>
+              </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid copyright-section">
+        <p>Copyright <a href="#">© Foodstreet.</a> All Rights Reserved</p>
+    </div>
+</section>
+<!-- Footer Section Exit  -->
+
+<div class="cartBox">
+  <div class="cart">
+    
+    <div class="close"><ion-icon name="close-outline"></ion-icon></div>
+    
+    <h1>Cart</h1>
+    <table class="table"></table>
+    <button class="order">Pay Now</button>
+  </div>
+</div>
+
+
+    <!-- bootstrap 5 cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+
+    <!-- custom js -->
+    <script src="./js/cart.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>   
+    <script src="./js/slider.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/map.js"></script>
+  </body>
+</html>

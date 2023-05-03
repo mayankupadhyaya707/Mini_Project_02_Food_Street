@@ -1,0 +1,546 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style1.css" />
+    <title>Food Street</title>
+    <link rel="icon" href="./images/food_logo2.jpeg" type="image/icon type">
+  </head>
+
+  
+  <!-- bootstrap 5 cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- icon iconic cdn -->
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!-- font awesome cdn -->
+<link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" />
+
+  <!-- style css -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/responsive-style.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/cart.css">
+
+
+  <body class="123">
+    <header id="full_nav ">
+      <div class="header">
+        <div class="container">
+          <nav id = "navvvv" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <img src="./images/food_logo2.jpeg" alt="" srcset="" height="70px" width="70px">  <!-- logo-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"  style="color: red;">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <ion-icon class="navbar-toggler-icon" name="menu-outline"></ion-icon>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./cities.html">Cities</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#C1">Contacts</a>
+                  </li>
+                </ul>
+                <!-- <a class="navbar-brand me-4 mt-1" href="#"><ion-icon class="bag " name="bag-handle-outline"></ion-icon></a> -->
+
+                <div class="iconShopping">
+                  <p>0</p>
+                  <a class="navbar-brand me-4 mt-1" href="index.html" ><ion-icon class="bag " name="bag-handle-outline"></ion-icon></a>
+                </div>
+  
+
+                <div class="nav-item mt-3 mt-lg-0">
+                  <!-- <a class="main-btn ordernow" href="./login.html">Login</a> -->
+                  <form class="form-inline my-2 my-lg-0">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                          <a id="userlink" class="main-btn nav-link me-2" href=""></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a id="signoutlink" class="main-btn nav-link" href=""></a>
+                    </li>
+                    </ul>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="banner_section">
+      <div class="container">
+          <div id="banner-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+
+                  <div class="carousel-item active" data-bs-interval="2000">
+                    <div class="picture"><img src="./images/Hungry.avif" alt="" srcset=""></div>
+                      <div class="carousel-caption">
+                          <div class="banner-content">
+                              <h1>Hungry or thirsty?</h1>
+                              <h3>Order right now!</h3>
+                              <p>Whenever, wherever. We’ll bring food to you!!</p>
+                              <a href="./cities.html" class="btn main-btn">ALL Cities</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <div class="picture"><img src="./images/cta-banner.png" alt="" srcset=""></div>
+                      <div class="carousel-caption">
+                          <div class="banner-content">
+                              <h1>Food! Delivered!</h1>
+                              <h3>Good Food for Good Moments</h3>
+                              <p>Heart-healthy meals delivered by hand to your house!!</p>
+                              <a href="./cities.html" class="btn main-btn">ALL Cities</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- banner section exit -->
+  
+  <!-- Features Section start -->
+  <section class="feature_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-lg-4 col-12 mb-5">
+                <div class="card features-box">
+                    <div class="text-center">
+                        <div class="features-icon-border">
+                            <div class="features-icon">
+                                <img src="./images/instructuion-1.png">
+                            </div>
+                        </div>
+                        <div class="features-text">
+                            <h3>24/07 Support</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4 col-12 mb-5">
+                <div class="card features-box">
+                    <div class="text-center">
+                        <div class="features-icon-border">
+                            <div class="features-icon">
+                                <img src="./images/instructuion-2.png">
+                            </div>
+                        </div>
+                        <div class="features-text">
+                            <h3>Free Shipping</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4 col-12 mb-5">
+                <div class="card features-box">
+                    <div class="text-center">
+                        <div class="features-icon-border">
+                            <div class="features-icon">
+                                <img src="./images/instructuion-3.png">
+                            </div>
+                        </div>
+                        <div class="features-text">
+                            <h3>Fresh & Healthy</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Features Section Exit -->
+ <!-- section-2 counter -->
+ <section id="counter">
+  <section class="counter-section">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+          <h2>
+            <span id="count1"></span>+
+          </h2>
+          <p>CITIES</p>
+        </div>
+        <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+          <h2>
+            <span id="count2"></span>+
+          </h2>
+          <p>RESTAURANT</p>
+        </div>
+        <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+          <h2>
+            <span id="count3"></span>+
+          </h2>
+          <p>CUSTOMERS</p>
+        </div>
+        <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+          <h2>
+            <span id="count4"></span>+
+          </h2>
+          <p>REVIEWS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+ <!-- section-3 about-->
+ <section id="about">
+  <div class="about-section wrapper">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+          <div class="card border-0">
+            <img src="./images/partner-1.jpg" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 text-sec">
+         <h2>We pride ourselves on making real food from the best ingredients.</h2>
+         <p>That's great to hear! Using high-quality ingredients can really make a difference in the taste and nutritional value of food. It's important to prioritize fresh, whole foods whenever possible and to avoid overly processed ingredients. By making real food from scratch, you also have more control over the ingredients and can tailor recipes to your own taste preferences and dietary needs. Keep up the good work!</p>
+           <!-- <button class="main-btn mt-4">Learn More</button> -->
+        </div>
+      </div>
+    </div>
+    
+    <div class="container food-type">
+      <div class="row align-items-center">
+        <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mt-5 mb-5">
+         <h2>We make everything by hand with the best possible ingredients.</h2>
+         <p>Making everything by hand with high-quality ingredients is a great way to ensure that your food is made with care and attention to detail. When you prepare food by hand, you have more control over the ingredients and the process, which can result in a superior end product. Handmade food can also provide a more personal touch and a unique flavor profile that is not easily replicated by mass-produced products. Keep up the dedication to using the best possible ingredients and handmade techniques in your cooking, as it can truly make a difference in the quality of the food you produce.</p>
+         
+         <!-- <button class="main-btn mt-4">Learn More</button> -->
+        </div>
+        <div class="col-lg-7 col-md-12">
+          <div class="card border-0">
+            <img src="./images/partner-2.jpg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!--Product Section start -->
+  <section class="landing_product_section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center pb-5">
+                <h2 class="section-title">Our Best Selling Cities</h2>
+                <p class="section-subtitle">The Passage Experienced A Surge In Popularity During The 1960s When
+                    Again During The 90s As Desktop Publishers</p>
+            </div>
+        </div>
+
+        <div class="row mx-0">
+            <div class="col-lg-3 col-sm-6 mb-5">
+                <div class="card product-card">
+                    <div class="product-img">
+                        <img src="./images/city1.png" class="index-img"  />
+                    </div>
+                    <div  style="text-align: center;">
+                        <h3 class="head_ing">Delhi</h3>
+                    </div>
+                    <div class="product-detail">
+                        <a href="./restaurats.html" class="btn main-btn">Explore Restraunts</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5">
+                <div class="card product-card">
+                    <div class="product-img">
+                        <img src="./images/city3.png"  class="index-img" />
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between" style="text-align: center;">
+                        <h3>Hyderabad</h3>
+                    </div>
+                    <div class="product-detail">
+                        <a href="./restaurats.html" class="btn main-btn">Explore Restraunts</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5">
+                <div class="card product-card">
+                    <div class="product-img">
+                        <img src="./images/city5.png"  class="index-img"/>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between" style="text-align: center;">
+                        <h3>Chennai</h3>
+                    </div>
+                    <div class="product-detail">
+                        <a href="./restaurats.html" class="btn main-btn">Explore Restraunts</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5">
+                <div class="card product-card">
+                    <div class="product-img">
+                        <img src="./images/city8.png"   class="index-img" />
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between" style="text-align: center;">
+                        <h3 class="head_ing">Agra</h3>
+                    </div>
+                    <div class="product-detail">
+                        <a href="./restaurats.html" class="btn main-btn">Explore Restraunts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--Product Section Exit -->
+
+
+  <!-- testimonial section -->
+  <section id="testimonial" class="testimonial_wrapper py-5">
+    <div class="container bg-success">
+        <div class="row ">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h1 class="text-red">Testimonials
+                        <div class="seprator-img"></div>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleNew" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleNew" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleNew" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleNew" data-bs-slide-to="2" aria-label="Slide 3"></button> 
+              </div>
+            <div class="carousel-inner py-5 text-center">
+              <div class="carousel-item active">
+                <figure class="col-md-6 offset-md-3 mt-4">
+                    <div class="testimonial-image">
+                        <img src="./images/testi-avatar.jpg" class="img-fluid rounded-circle border border-4 border-danger">
+                    </div>
+                    <blockquote class="blockquote">
+                        <p class="text-black">Google Reviews - A platform where customers can leave ratings and reviews for businesses, including restaurants.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer mt-2">Jonh Son</figcaption>
+                </figure>
+              </div>
+              <div class="carousel-item">
+                <figure class="col-md-6 offset-md-3 mt-4">
+                    <div class="testimonial-image">
+                        <img src="./images/testi-avatar.jpg" class="img-fluid rounded-circle border border-4 border-danger">
+                    </div>
+                    <blockquote class="blockquote">
+                        <p class="text-black">Yelp - A popular review site where customers can leave ratings and reviews for restaurants and other businesses.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer mt-2">Jonh Son</figcaption>
+                </figure>
+              </div> 
+              <div class="carousel-item">
+                <figure class="col-md-6 offset-md-3 mt-4">
+                    <div class="testimonial-image">
+                        <img src="./images/testi-avatar.jpg" class="img-fluid rounded-circle border border-4 border-danger">
+                    </div>
+                    <blockquote class="blockquote">
+                        <p class="text-black">TripAdvisor - A travel and restaurant review site that includes customer ratings and reviews for restaurants all over the world.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer mt-2">Jonh Son</figcaption>
+                </figure>
+              </div>
+            </div> 
+          </div>
+    </div>
+</section> 
+<!-- testimonial section exit -->
+
+  
+
+ <!-- section-6 faq-->
+ <section id="faq">
+  <div class="faq wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="text-center pb-4">
+           <h2>Frequently Asked Questions</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-sm-6 mb-4">
+         <h4><span>~</span>Is Foodies Bread really baked fresh each day?</h4>
+         <p>Foodies Bread claims that their bread is baked fresh each day, it's likely that they follow a daily baking schedule to ensure that their bread is as fresh as possible. Many bakeries do follow this practice as it ensures that the bread is at its best quality and flavor. It's always best to ask the bakery directly about their baking practices to confirm if their bread is baked fresh each day.
+         </p>
+        </div>
+        <div class="col-sm-6 mb-4">
+         <h4><span>~</span>Do you bake breads containing animal fats or products?</h4>
+         <p> The use of animal fats or products in bread is a common practice in many bakeries, especially when making certain types of bread such as brioche or challah. Animal fats such as butter or lard can add flavor and richness to bread, while eggs and milk can add moisture and texture. If you have specific dietary restrictions or preferences, it's always best to ask the bakery directly about the ingredients they use in their bread to ensure that it meets your needs. Many bakeries also offer vegan or plant-based options, so it's worth checking if they have any suitable alternatives.
+         </p>
+        </div>
+        <div class="col-sm-6 mb-4">
+         <h4><span>~</span>Can I order your products online?</h4>
+         <p>Yes we provide the facility of online orders of food items.
+         </p>
+        </div>
+        <div class="col-sm-6 mb-4">
+         <h4><span>~</span>When are you opening a shop near me?</h4>
+         <p>As we are practicing to explore many cities so may be next will be your city.
+         </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- section-7 book-food-->
+<section id="book-food">
+  <div class="book-food">
+    <div class="container book-food-text">
+      <div class="row text-center">
+        <div class="col-lg-9 col-md-12">
+         <h2>Baked fresh daily by bakers with passion.</h2>
+        </div>
+        <!-- <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+          <button class="main-btn">Learn more</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <!-- section-8 newslettar-->
+ <section id="newslettar">
+  <div class="newslettar wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="sol-sm-12">
+          <div class="text-content text-center pb-4">
+           <h2>Hurry up! Subscribe our newsletter
+             and get 25% Off</h2>
+           <p>Limited time offer for this month. No credit card required. </p>
+          </div>
+          <form class="newsletter">
+            <div class="row">
+              <div class="col-md-8 col-12">
+                <input class="form-control" placeholder="Email Address here" name="email" type="email">
+              </div>
+              <div class="col-md-4 col-12">
+                <button class="main-btn" type="submit">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Footer section -->
+  <section id="C1" class="footer_wrapper mt-3 mt-md-0 bg-dark">
+    <div class="container px-5 px-lg-0">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Food Street</h5>
+                <p class="mb-4 ps-0 company_details">
+                  A warm welcome to the Food Street, your one-stop destination for exploring, discovering, experiencing, and ordering delicious food from the comfort of your home! 
+                    </p>
+                
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Customer Support</h5>
+                  <p style="font-size: 34px; font-weight: 500; line-height: 38px;" >
+                    24/07 hrs<br>Support
+                  </p>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Quick Links</h5>
+                <ul class="link-widget p-0">
+                    <li><a href="dishes.html">Product</a></li>
+                    <li><a href="restaurats.html">Explore your Restaurant</a></li>
+                    <li><a href="cities.html">Find your city</a></li>
+                    <li><a href="register.html">Get register now </a></li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>GET IN TOUCH</h5>
+                <div class="contact-info">
+                  <ul class="list-unstyled">
+                    <li><a href="#"><ion-icon name="home-outline"></ion-icon></i> National Highway 2, Bypass-281001 near Gla University</a></li>
+                    <li><a href="#"><ion-icon name="call-outline"></ion-icon></i>+91 6398231569</a></li>
+                    <li><a href="#"><ion-icon name="mail-outline"></ion-icon>foodstreet@gmail.com</a></li>
+                    <ul class="social-network d-flex align-items-center p-0">
+                      <li><a href="https://www.instagram.com/" style="color: white;border-color: pink;
+                        background: #f09433; 
+                        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+                        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+                        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );;"><ion-icon name="logo-instagram"></ion-icon></i></a></li>
+                      
+                      <li><a href="https://twitter.com/" style=" background-color:#55ACEE;
+                        color: white;border-color: #55ACEE;"><ion-icon name="logo-twitter"></ion-icon></i></a></li>
+                      
+                      <li><a href="https://www.linkedin.com/" style=" background-color: blue;border-color: blue;
+                        color: white;"><ion-icon name="logo-linkedin"></ion-icon></i></a></li>
+                      
+                      <li><a href="https://www.youtube.com/" style="color: white;background-color: red;border-color: red
+                      ;"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                  </ul>
+                  </ul>
+              </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid copyright-section">
+        <p>Copyright <a href="#">© Foodstreet.</a> All Rights Reserved</p>
+    </div>
+</section>
+<!-- Footer Section Exit  -->
+<div class="cartBox">
+  <div class="cart">
+    
+    <div class="close"><ion-icon name="close-outline"></ion-icon></div>
+    
+    <h1>Cart</h1>
+    <table class="table"></table>
+    <button class="order" style="color: black;">Pay Now</button>
+  </div>
+</div>
+
+
+
+    <!-- bootstrap 5 cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+
+    <!-- custom js -->
+    <script src="./js/cart.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="js/prevent.js"></script>
+
+  </body>
+</html>
